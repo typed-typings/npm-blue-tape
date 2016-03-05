@@ -1,30 +1,9 @@
 {
-  "name": "npm-blue-tape",
-  "description": "The type definition for https://github.com/spion/blue-tape",
-  "version": "0.0.1",
-  "author": "blakeembrey",
-  "license": "MIT",
   "scripts": {
     "build": "typings bundle . -o bundle.d.ts",
     "test": "ts-node test.ts"
   },
-  "directories": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/typed-typings/npm-blue-tape.git"
-  },
-  "homepage": "https://github.com/typed-typings/npm-blue-tape#readme",
-  "keywords": [
-    "typings",
-    "typed",
-    "blue-tape"
-  ],
-  "bugs": {
-    "url": "https://github.com/typed-typings/npm-blue-tape/issues"
-  },
-  "dependencies": {},
+  "private": true,
   "devDependencies": {
     "blue-tape": "^0.2.0",
     "ts-node": "^0.5.5",
