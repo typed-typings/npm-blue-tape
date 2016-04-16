@@ -1,8 +1,9 @@
+import {Thenable} from 'es6-promise';
 import tape = require('tape');
 
 declare module 'tape' {
   interface Test {
-    shouldFail(p: PromiseLike<any>, c?: new() => Error): PromiseLike<any>;
+    shouldFail(p: Thenable<any>, c?: new() => Error): Thenable<any>;
   }
 }
 

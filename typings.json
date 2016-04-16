@@ -6,9 +6,7 @@
     "node": "registry:dt/node#4.0.0+20160412142033"
   },
   "dependencies": {
+    "es6-promise": "registry:npm/es6-promise#3.0.0+20160211003958",
     "tape": "registry:npm/tape#4.0.0+20160322235547"
-  },
-  "devDependencies": {
-    "any-promise": "registry:npm/any-promise#1.0.0+20160211003958"
   }
 }

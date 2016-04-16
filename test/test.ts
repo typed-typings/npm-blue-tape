@@ -1,5 +1,5 @@
 import tape = require('blue-tape');
-import Promise = require('any-promise');
+import {Promise} from 'es6-promise';
 
 class SomeError extends Error {
   constructor(message?: string) {
