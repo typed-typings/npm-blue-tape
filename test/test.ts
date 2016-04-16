@@ -1,8 +1,15 @@
 import tape = require('blue-tape');
 import Promise = require('any-promise');
 
-tape('API', (t) => {
-  let promise = Promise.reject(new Error('secret'));
+class SomeError extends Error {
+  constructor(message?: string) {
+    super(message);
+  }
+}
+
+tape('shouldFail()', (t) => {
+  t.plan(2);
+  let promise = Promise.reject(new SomeError('secret'));
   t.shouldFail(promise);
-  t.end();
+  t.shouldFail(promise, SomeError);
 });
