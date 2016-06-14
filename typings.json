@@ -2,11 +2,11 @@
   "name": "blue-tape",
   "main": "index.d.ts",
   "version": "0.2.0",
-  "ambientDependencies": {
-    "node": "registry:dt/node#4.0.0+20160412142033"
-  },
   "dependencies": {
     "es6-promise": "registry:npm/es6-promise#3.0.0+20160211003958",
-    "tape": "registry:npm/tape#4.0.0+20160322235547"
+    "tape": "registry:npm/tape#4.0.0+20160607230938"
+  },
+  "globalDependencies": {
+    "node": "registry:env/node#4.0.0+20160507210304"
   }
 }
