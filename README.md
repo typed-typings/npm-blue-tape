@@ -1,4 +1,4 @@
-# Typed Tape
+# Typed Blue Tape
 
 The type definition for [blue-tape](https://github.com/spion/blue-tape).
 
